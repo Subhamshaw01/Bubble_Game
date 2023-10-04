@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif ;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(202, 238, 202);
+}
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#ptop{
+    padding: 0px 30%;
+    justify-content: space-between;
+    display: flex; 
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(72,179,126);
+    color: #fff;
+}
+.elem{
+    width: 7%;
+    display: flex;
+   align-items: center;
+    gap: 20px;
+}
+.elem h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.box{
+    font-weight: 700;
+    padding: 0px 20px;
+    height: auto;
+    background-color: #fff;
+    color: rgb(18,119,57);
+    border-radius: 5px;
+    font-size: 22px;
+}
+#pbtm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 11px;
+    padding: 18px 45px;
+    width: 100%;
+    height: calc(100%-100px);
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47px;
+    height: 47px;
+    background-color: rgb(72,104,72);
+    color: #fff;
+    border-radius: 50%; 
+    font-weight: 600;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(50,75,50);
+}
