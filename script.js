@@ -1,6 +1,6 @@
 var hitrn=0;
 var score=0;
-var timer=1;
+var timer=60;
 function makeBubble(){
     var clutter="";
     for(var i=1;i<=105;i++)
